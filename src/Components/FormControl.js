@@ -19,6 +19,7 @@ const TextFieldFormhandle = () => {
     const inputCopy = {...inputs};
     inputCopy[e.target.name]=e.target.value;
     Setinputs(inputCopy);
+    console.log("second commit");
   };
 
   const handleSubmit = (e) => {

@@ -36,7 +36,7 @@ const TextFieldFormhandle = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit} style={{display : "flex", flexDirection : "column"}}>
+      <form onSubmit={handleSubmit} style={{display : "flex", flexDirection : "column",margin:"20px"}}>
         <TextField
           name="name"
           value={inputs.name}
